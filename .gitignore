@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build output
+dist/
+.astro/
+node_modules/
+
+# Data (ChromaDB, docs)
+data/chroma/
+data/docs/
+
+# Logs
+*.log
+logs/
+
+# Blog agent plan HTML (internal planning, not source code)
+blog-agent-plan/
+
+# Temp files
+*.tmp
+*.bak
